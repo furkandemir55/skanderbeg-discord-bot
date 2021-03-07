@@ -1,6 +1,7 @@
-const fetch = require('node-fetch')
+require('dotenv').config();
 
-const apiKey = "69dd20c9dcb9403453d647b7ba9cb708"
+const fetch = require('node-fetch')
+const apiKey = process.env.API_KEY
 //const saveId = "bed1ad"
 const apiUrl = "https://skanderbeg.pm/api.php"
 
