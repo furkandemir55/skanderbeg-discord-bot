@@ -31,6 +31,8 @@ bot.on('message', async msg => {
     // TODO yazılacak değerleri türkçeye çevir
     msg.channel.send(response)
   }
-  if (msg.content === 'zulüm kaçta başladı?')
+  if (msg.content === 'zulüm ne zaman başladı')
     msg.channel.send('Bahri modlu oyun açınca')
+  if (msg.content === 'olur mu böyle soytarılık')
+    msg.channel.send('Ben böyle soytarılık görmedim')
 });
